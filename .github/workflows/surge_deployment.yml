@@ -36,7 +36,7 @@ jobs:
     - name: Install Surge
       run: npm install --global surge
     - name: Deploy to Surge
-      run: surge ./build react-class6-ExpenseTracker-.surge.sh --token ${{ secrets.expense_tracker_deploy_token }}
+      run: surge ./build react-class6-ExpenseTracker15055-.surge.sh --token ${{ secrets.expense_tracker_deploy_token }}
 
     # Runs a single command using the runners shell
     - name: Run a one-line script
